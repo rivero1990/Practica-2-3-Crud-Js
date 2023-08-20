@@ -24,16 +24,6 @@ DESCRIBE peliculas;
 SELECT * FROM peliculas;
 
 
-/* UPDATE peliculas SET secuela = TRUE WHERE datos_peliculas = 1;
-
-UPDATE peliculas SET secuela = TRUE WHERE datos_peliculas = 3;
-
-
-DELETE FROM peliculas WHERE datos_peliculas = 2;
-
-DELETE FROM peliculas WHERE datos_peliculas = 4; */
-
-
 
 
 
