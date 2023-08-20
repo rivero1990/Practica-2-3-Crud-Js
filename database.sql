@@ -1,3 +1,6 @@
+
+DROP DATABASE IF EXISTS recaudacion_peliculas;
+
 CREATE DATABASE recaudacion_peliculas;
 
 SHOW DATABASES;
@@ -17,30 +20,18 @@ CREATE TABLE peliculas (
 
 DESCRIBE peliculas;
 
-INSERT INTO peliculas (nombre, recaudacion_millones, ganancias_millones)
-VALUES ("Infierno", 175, 55);
-
-INSERT INTO peliculas (nombre, recaudacion_millones, ganancias_millones, secuela)
-VALUES ("Paraiso", 300, 125, true);
-
-INSERT INTO peliculas (nombre, recaudacion_millones, ganancias_millones)
-VALUES ("Inundacion Mortal", 90, 23);
-
-INSERT INTO peliculas (nombre, recaudacion_millones, ganancias_millones, secuela)
-VALUES ("Punto de Quiebre", 450, 155, true);
-
 
 SELECT * FROM peliculas;
 
 
-UPDATE peliculas SET secuela = TRUE WHERE datos_peliculas = 1;
+/* UPDATE peliculas SET secuela = TRUE WHERE datos_peliculas = 1;
 
 UPDATE peliculas SET secuela = TRUE WHERE datos_peliculas = 3;
 
 
 DELETE FROM peliculas WHERE datos_peliculas = 2;
 
-DELETE FROM peliculas WHERE datos_peliculas = 4;
+DELETE FROM peliculas WHERE datos_peliculas = 4; */
 
 
 
